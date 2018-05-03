@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E04A91D2046402200FBEA55 /* InsertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E04A91C2046402200FBEA55 /* InsertSort.c */; };
+		8E04A93F20496CD200FBEA55 /* SelectSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E04A93E20496CD200FBEA55 /* SelectSort.c */; };
+		8E09AADE204D5AA50016926C /* ShellSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E09AADD204D5AA50016926C /* ShellSort.c */; };
 		8E89997820400B4800E1C088 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E89997720400B4800E1C088 /* main.c */; };
+		8E89998120400BDD00E1C088 /* 7Reverse Integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E89998020400BDD00E1C088 /* 7Reverse Integer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8E04A91B2046402200FBEA55 /* InsertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertSort.h; sourceTree = "<group>"; };
+		8E04A91C2046402200FBEA55 /* InsertSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InsertSort.c; sourceTree = "<group>"; };
+		8E04A93D20496CD200FBEA55 /* SelectSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectSort.h; sourceTree = "<group>"; };
+		8E04A93E20496CD200FBEA55 /* SelectSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SelectSort.c; sourceTree = "<group>"; };
+		8E09AADC204D5AA50016926C /* ShellSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
+		8E09AADD204D5AA50016926C /* ShellSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShellSort.c; sourceTree = "<group>"; };
 		8E89997420400B4800E1C088 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E89997720400B4800E1C088 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8E89998020400BDD00E1C088 /* 7Reverse Integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7Reverse Integer.c"; sourceTree = "<group>"; };
+		8E8999822040155E00E1C088 /* 7Reverse Integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7Reverse Integer.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E04A91920463FFF00FBEA55 /* 排序 */ = {
+			isa = PBXGroup;
+			children = (
+				8E04A91B2046402200FBEA55 /* InsertSort.h */,
+				8E04A91C2046402200FBEA55 /* InsertSort.c */,
+				8E04A93D20496CD200FBEA55 /* SelectSort.h */,
+				8E04A93E20496CD200FBEA55 /* SelectSort.c */,
+				8E09AADC204D5AA50016926C /* ShellSort.h */,
+				8E09AADD204D5AA50016926C /* ShellSort.c */,
+			);
+			path = "排序";
+			sourceTree = "<group>";
+		};
+		8E04A91A20463FFF00FBEA55 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
 		8E89996B20400B4800E1C088 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +89,11 @@
 		8E89997620400B4800E1C088 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				8E04A91920463FFF00FBEA55 /* 排序 */,
+				8E04A91A20463FFF00FBEA55 /* LeetCode */,
 				8E89997720400B4800E1C088 /* main.c */,
+				8E8999822040155E00E1C088 /* 7Reverse Integer.h */,
+				8E89998020400BDD00E1C088 /* 7Reverse Integer.c */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -119,7 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E89998120400BDD00E1C088 /* 7Reverse Integer.c in Sources */,
+				8E04A93F20496CD200FBEA55 /* SelectSort.c in Sources */,
+				8E09AADE204D5AA50016926C /* ShellSort.c in Sources */,
 				8E89997820400B4800E1C088 /* main.c in Sources */,
+				8E04A91D2046402200FBEA55 /* InsertSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
