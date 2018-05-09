@@ -13,6 +13,7 @@
 		8E89997820400B4800E1C088 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E89997720400B4800E1C088 /* main.c */; };
 		8E89998120400BDD00E1C088 /* 7Reverse Integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E89998020400BDD00E1C088 /* 7Reverse Integer.c */; };
 		8EC77C9D209B3DCF00B83AF4 /* BubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EC77C9C209B3DCF00B83AF4 /* BubbleSort.c */; };
+		8EF3196120A2E4EB00DDCA07 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF3196020A2E4EB00DDCA07 /* QuickSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		8E8999822040155E00E1C088 /* 7Reverse Integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7Reverse Integer.h"; sourceTree = "<group>"; };
 		8EC77C9B209B3DCF00B83AF4 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 		8EC77C9C209B3DCF00B83AF4 /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
+		8EF3195F20A2E4EB00DDCA07 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		8EF3196020A2E4EB00DDCA07 /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				8E09AADD204D5AA50016926C /* ShellSort.c */,
 				8EC77C9B209B3DCF00B83AF4 /* BubbleSort.h */,
 				8EC77C9C209B3DCF00B83AF4 /* BubbleSort.c */,
+				8EF3195F20A2E4EB00DDCA07 /* QuickSort.h */,
+				8EF3196020A2E4EB00DDCA07 /* QuickSort.c */,
 			);
 			path = "排序";
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				8EC77C9D209B3DCF00B83AF4 /* BubbleSort.c in Sources */,
 				8E89997820400B4800E1C088 /* main.c in Sources */,
 				8E04A91D2046402200FBEA55 /* InsertSort.c in Sources */,
+				8EF3196120A2E4EB00DDCA07 /* QuickSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

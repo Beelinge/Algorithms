@@ -8,6 +8,7 @@
 
 #include "ShellSort.h"
 
+// 希尔排序
 void ShellSort(int *array, int length) {
     int increment;
     int i,j;
