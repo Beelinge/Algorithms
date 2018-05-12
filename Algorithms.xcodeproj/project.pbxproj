@@ -10,6 +10,7 @@
 		8E04A91D2046402200FBEA55 /* InsertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E04A91C2046402200FBEA55 /* InsertSort.c */; };
 		8E04A93F20496CD200FBEA55 /* SelectSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E04A93E20496CD200FBEA55 /* SelectSort.c */; };
 		8E09AADE204D5AA50016926C /* ShellSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E09AADD204D5AA50016926C /* ShellSort.c */; };
+		8E59CFFC20A6B0C800CFFB75 /* HeapSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E59CFFA20A6B0C800CFFB75 /* HeapSort.c */; };
 		8E89997820400B4800E1C088 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E89997720400B4800E1C088 /* main.c */; };
 		8E89998120400BDD00E1C088 /* 7Reverse Integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E89998020400BDD00E1C088 /* 7Reverse Integer.c */; };
 		8EC77C9D209B3DCF00B83AF4 /* BubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EC77C9C209B3DCF00B83AF4 /* BubbleSort.c */; };
@@ -35,6 +36,8 @@
 		8E04A93E20496CD200FBEA55 /* SelectSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SelectSort.c; sourceTree = "<group>"; };
 		8E09AADC204D5AA50016926C /* ShellSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
 		8E09AADD204D5AA50016926C /* ShellSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShellSort.c; sourceTree = "<group>"; };
+		8E59CFFA20A6B0C800CFFB75 /* HeapSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HeapSort.c; sourceTree = "<group>"; };
+		8E59CFFB20A6B0C800CFFB75 /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
 		8E89997420400B4800E1C088 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E89997720400B4800E1C088 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8E89998020400BDD00E1C088 /* 7Reverse Integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7Reverse Integer.c"; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				8EC77C9C209B3DCF00B83AF4 /* BubbleSort.c */,
 				8EF3195F20A2E4EB00DDCA07 /* QuickSort.h */,
 				8EF3196020A2E4EB00DDCA07 /* QuickSort.c */,
+				8E59CFFB20A6B0C800CFFB75 /* HeapSort.h */,
+				8E59CFFA20A6B0C800CFFB75 /* HeapSort.c */,
 			);
 			path = "排序";
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E89998120400BDD00E1C088 /* 7Reverse Integer.c in Sources */,
+				8E59CFFC20A6B0C800CFFB75 /* HeapSort.c in Sources */,
 				8E04A93F20496CD200FBEA55 /* SelectSort.c in Sources */,
 				8E09AADE204D5AA50016926C /* ShellSort.c in Sources */,
 				8EC77C9D209B3DCF00B83AF4 /* BubbleSort.c in Sources */,
@@ -226,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -275,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};

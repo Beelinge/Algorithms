@@ -14,6 +14,7 @@
 #include "ShellSort.h"
 #include "BubbleSort.h"
 #include "QuickSort.h"
+#include "HeapSort.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -28,6 +29,8 @@ int main(int argc, const char * argv[]) {
 //    ShellSort(array, 9);
 //    bubbleSort_2(array, 3);
     
-    quickSort(array, 0, 8, 9);
+//    quickSort(array, 0, 8, 9);
+    
+    heapSort(9, array);
     return 0;
 }
