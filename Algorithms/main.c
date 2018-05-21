@@ -16,6 +16,7 @@
 #include "QuickSort.h"
 #include "HeapSort.h"
 #include "CountSort.h"
+#include "BucketSort.h"
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
@@ -32,6 +33,7 @@ int main(int argc, const char * argv[]) {
 //    quickSort(array, 0, 8, 9);
     
 //    heapSort(9, array);
-    countSort(array, 9, 10);
+//    countSort(array, 9, 10);
+    bucketSort(array, 9, 10);
     return 0;
 }

@@ -14,6 +14,7 @@
 		8E59CFFC20A6B0C800CFFB75 /* HeapSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E59CFFA20A6B0C800CFFB75 /* HeapSort.c */; };
 		8E89997820400B4800E1C088 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E89997720400B4800E1C088 /* main.c */; };
 		8E89998120400BDD00E1C088 /* 7Reverse Integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E89998020400BDD00E1C088 /* 7Reverse Integer.c */; };
+		8E8F30AB20B2990A00BB5110 /* BucketSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F30AA20B2990A00BB5110 /* BucketSort.c */; };
 		8EC77C9D209B3DCF00B83AF4 /* BubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EC77C9C209B3DCF00B83AF4 /* BubbleSort.c */; };
 		8EF3196120A2E4EB00DDCA07 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF3196020A2E4EB00DDCA07 /* QuickSort.c */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,8 @@
 		8E89997720400B4800E1C088 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8E89998020400BDD00E1C088 /* 7Reverse Integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7Reverse Integer.c"; sourceTree = "<group>"; };
 		8E8999822040155E00E1C088 /* 7Reverse Integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7Reverse Integer.h"; sourceTree = "<group>"; };
+		8E8F30A920B2990A00BB5110 /* BucketSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BucketSort.h; sourceTree = "<group>"; };
+		8E8F30AA20B2990A00BB5110 /* BucketSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BucketSort.c; sourceTree = "<group>"; };
 		8EC77C9B209B3DCF00B83AF4 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 		8EC77C9C209B3DCF00B83AF4 /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
 		8EF3195F20A2E4EB00DDCA07 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				8E59CFFA20A6B0C800CFFB75 /* HeapSort.c */,
 				8E3C227220AD1DC30064C42D /* CountSort.h */,
 				8E3C227320AD1DC30064C42D /* CountSort.c */,
+				8E8F30A920B2990A00BB5110 /* BucketSort.h */,
+				8E8F30AA20B2990A00BB5110 /* BucketSort.c */,
 			);
 			path = "排序";
 			sourceTree = "<group>";
@@ -178,6 +183,7 @@
 				8E89998120400BDD00E1C088 /* 7Reverse Integer.c in Sources */,
 				8E59CFFC20A6B0C800CFFB75 /* HeapSort.c in Sources */,
 				8E04A93F20496CD200FBEA55 /* SelectSort.c in Sources */,
+				8E8F30AB20B2990A00BB5110 /* BucketSort.c in Sources */,
 				8E09AADE204D5AA50016926C /* ShellSort.c in Sources */,
 				8EC77C9D209B3DCF00B83AF4 /* BubbleSort.c in Sources */,
 				8E89997820400B4800E1C088 /* main.c in Sources */,
