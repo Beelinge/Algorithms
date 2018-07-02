@@ -17,13 +17,15 @@
 #include "HeapSort.h"
 #include "CountSort.h"
 #include "BucketSort.h"
+#include "RadixSort.h"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
     
 //    printf("%d", reverse(2));
     
-    int array[9] = {1,4,5,2,3,6,9,8,7};
+    int array[12] = {1,4,5,2,3,6,9,8,7,2,2,3};
   
 //    insertSort(array, 9);
 //    selectSort(array, 9);
@@ -34,6 +36,7 @@ int main(int argc, const char * argv[]) {
     
 //    heapSort(9, array);
 //    countSort(array, 9, 10);
-    bucketSort(array, 9, 10);
+//    bucketSort(array, 9, 10);
+    radixSort(array, 12, 2, 10);
     return 0;
 }

@@ -12,9 +12,14 @@
 		8E09AADE204D5AA50016926C /* ShellSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E09AADD204D5AA50016926C /* ShellSort.c */; };
 		8E3C227420AD1DC30064C42D /* CountSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E3C227320AD1DC30064C42D /* CountSort.c */; };
 		8E59CFFC20A6B0C800CFFB75 /* HeapSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E59CFFA20A6B0C800CFFB75 /* HeapSort.c */; };
+		8E7CA1F320BD727E00827CF5 /* SequenceSearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CA1F220BD727E00827CF5 /* SequenceSearch.c */; };
+		8E7CA1F620BD72AE00827CF5 /* BinarySearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CA1F520BD72AE00827CF5 /* BinarySearch.c */; };
+		8E7CA1F920BD734200827CF5 /* InsertionSearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CA1F820BD734200827CF5 /* InsertionSearch.c */; };
+		8E7CA1FC20BD745D00827CF5 /* FibonacciSearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E7CA1FB20BD745D00827CF5 /* FibonacciSearch.c */; };
 		8E89997820400B4800E1C088 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E89997720400B4800E1C088 /* main.c */; };
 		8E89998120400BDD00E1C088 /* 7Reverse Integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E89998020400BDD00E1C088 /* 7Reverse Integer.c */; };
 		8E8F30AB20B2990A00BB5110 /* BucketSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F30AA20B2990A00BB5110 /* BucketSort.c */; };
+		8E8F30AE20B4271B00BB5110 /* RadixSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F30AD20B4271B00BB5110 /* RadixSort.c */; };
 		8EC77C9D209B3DCF00B83AF4 /* BubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EC77C9C209B3DCF00B83AF4 /* BubbleSort.c */; };
 		8EF3196120A2E4EB00DDCA07 /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8EF3196020A2E4EB00DDCA07 /* QuickSort.c */; };
 /* End PBXBuildFile section */
@@ -42,12 +47,22 @@
 		8E3C227320AD1DC30064C42D /* CountSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CountSort.c; sourceTree = "<group>"; };
 		8E59CFFA20A6B0C800CFFB75 /* HeapSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HeapSort.c; sourceTree = "<group>"; };
 		8E59CFFB20A6B0C800CFFB75 /* HeapSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeapSort.h; sourceTree = "<group>"; };
+		8E7CA1F120BD727E00827CF5 /* SequenceSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SequenceSearch.h; sourceTree = "<group>"; };
+		8E7CA1F220BD727E00827CF5 /* SequenceSearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SequenceSearch.c; sourceTree = "<group>"; };
+		8E7CA1F420BD72AE00827CF5 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		8E7CA1F520BD72AE00827CF5 /* BinarySearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BinarySearch.c; sourceTree = "<group>"; };
+		8E7CA1F720BD734200827CF5 /* InsertionSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertionSearch.h; sourceTree = "<group>"; };
+		8E7CA1F820BD734200827CF5 /* InsertionSearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InsertionSearch.c; sourceTree = "<group>"; };
+		8E7CA1FA20BD745C00827CF5 /* FibonacciSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FibonacciSearch.h; sourceTree = "<group>"; };
+		8E7CA1FB20BD745D00827CF5 /* FibonacciSearch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FibonacciSearch.c; sourceTree = "<group>"; };
 		8E89997420400B4800E1C088 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E89997720400B4800E1C088 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8E89998020400BDD00E1C088 /* 7Reverse Integer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "7Reverse Integer.c"; sourceTree = "<group>"; };
 		8E8999822040155E00E1C088 /* 7Reverse Integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7Reverse Integer.h"; sourceTree = "<group>"; };
 		8E8F30A920B2990A00BB5110 /* BucketSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BucketSort.h; sourceTree = "<group>"; };
 		8E8F30AA20B2990A00BB5110 /* BucketSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BucketSort.c; sourceTree = "<group>"; };
+		8E8F30AC20B4271B00BB5110 /* RadixSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadixSort.h; sourceTree = "<group>"; };
+		8E8F30AD20B4271B00BB5110 /* RadixSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RadixSort.c; sourceTree = "<group>"; };
 		8EC77C9B209B3DCF00B83AF4 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 		8EC77C9C209B3DCF00B83AF4 /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
 		8EF3195F20A2E4EB00DDCA07 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
@@ -84,6 +99,8 @@
 				8E3C227320AD1DC30064C42D /* CountSort.c */,
 				8E8F30A920B2990A00BB5110 /* BucketSort.h */,
 				8E8F30AA20B2990A00BB5110 /* BucketSort.c */,
+				8E8F30AC20B4271B00BB5110 /* RadixSort.h */,
+				8E8F30AD20B4271B00BB5110 /* RadixSort.c */,
 			);
 			path = "排序";
 			sourceTree = "<group>";
@@ -93,6 +110,21 @@
 			children = (
 			);
 			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		8E7CA1F020BD722B00827CF5 /* 查找 */ = {
+			isa = PBXGroup;
+			children = (
+				8E7CA1F120BD727E00827CF5 /* SequenceSearch.h */,
+				8E7CA1F220BD727E00827CF5 /* SequenceSearch.c */,
+				8E7CA1F420BD72AE00827CF5 /* BinarySearch.h */,
+				8E7CA1F520BD72AE00827CF5 /* BinarySearch.c */,
+				8E7CA1F720BD734200827CF5 /* InsertionSearch.h */,
+				8E7CA1F820BD734200827CF5 /* InsertionSearch.c */,
+				8E7CA1FA20BD745C00827CF5 /* FibonacciSearch.h */,
+				8E7CA1FB20BD745D00827CF5 /* FibonacciSearch.c */,
+			);
+			path = "查找";
 			sourceTree = "<group>";
 		};
 		8E89996B20400B4800E1C088 = {
@@ -114,6 +146,7 @@
 		8E89997620400B4800E1C088 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				8E7CA1F020BD722B00827CF5 /* 查找 */,
 				8E04A91920463FFF00FBEA55 /* 排序 */,
 				8E04A91A20463FFF00FBEA55 /* LeetCode */,
 				8E89997720400B4800E1C088 /* main.c */,
@@ -181,12 +214,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E89998120400BDD00E1C088 /* 7Reverse Integer.c in Sources */,
+				8E7CA1F920BD734200827CF5 /* InsertionSearch.c in Sources */,
+				8E8F30AE20B4271B00BB5110 /* RadixSort.c in Sources */,
+				8E7CA1F620BD72AE00827CF5 /* BinarySearch.c in Sources */,
 				8E59CFFC20A6B0C800CFFB75 /* HeapSort.c in Sources */,
 				8E04A93F20496CD200FBEA55 /* SelectSort.c in Sources */,
+				8E7CA1F320BD727E00827CF5 /* SequenceSearch.c in Sources */,
 				8E8F30AB20B2990A00BB5110 /* BucketSort.c in Sources */,
 				8E09AADE204D5AA50016926C /* ShellSort.c in Sources */,
 				8EC77C9D209B3DCF00B83AF4 /* BubbleSort.c in Sources */,
 				8E89997820400B4800E1C088 /* main.c in Sources */,
+				8E7CA1FC20BD745D00827CF5 /* FibonacciSearch.c in Sources */,
 				8E04A91D2046402200FBEA55 /* InsertSort.c in Sources */,
 				8EF3196120A2E4EB00DDCA07 /* QuickSort.c in Sources */,
 				8E3C227420AD1DC30064C42D /* CountSort.c in Sources */,
